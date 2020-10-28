@@ -2,7 +2,7 @@
 const express = require('express')
 const server = express()
 
-const {pageLading, pageStudy, pageGiveClasses, saveClasses} = require('./pages') 
+const {pageLanding, pageStudy, pageGiveClasses, saveClasses} = require('./pages') 
 
 //Configurar nunjucks
 const nunjucks = require('nunjucks')
@@ -19,7 +19,7 @@ server
 //Configurar arquivos estáticos (css, scripts, imagens)
 .use(express.static("public"))
 //Rotas da aplicação
-.get("/", pageLading)
+.get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)
