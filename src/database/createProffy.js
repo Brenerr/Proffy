@@ -23,9 +23,9 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
             cost,
             proffy_id
         ) VALUES (
-        "${classValue.subject}",
-        "${classValue.cost}",
-        "${proffy_id}"
+            "${classValue.subject}",
+            "${classValue.cost}",
+            "${proffy_id}"
         );
     `)
     const class_id = insertedClass.lastID

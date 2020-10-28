@@ -9,7 +9,7 @@ function pageLading(req,res) {
 async function pageStudy(req,res){
     const filters = req.query
 
-    if(!filters.subject || !filters.weekdays || !filters.time){
+    if(!filters.subject || !filters.weekday || !filters.time){
         return res.render("study.html", { filters, subjects, weekdays })
     }
 
@@ -24,7 +24,7 @@ async function pageStudy(req,res){
             SELECT class_schedule.*
             FROM class_schedule
             WHERE class_schedule.class_id = classes.id
-            AND class_schedule.weekday = ${filters.weekdays}
+            AND class_schedule.weekday = ${filters.weekday}
             AND class_schedule.time_from <= ${timeToMinutes}
             AND class_schedule.time_to > ${timeToMinutes}
         )
@@ -60,12 +60,12 @@ async function saveClasses(req, res){
         bio: req.body.bio
     } 
 
-    const classValues = {
+    const classValue = {
         subject: req.body.subject,
         cost: req.body.cost
     }
 
-    const classScheduleValues = req.body.weekdays.map((weekday, index) => {
+    const classScheduleValues = req.body.weekday.map((weekday, index) => {
         return {
             weekday, 
             time_from: convertHoursToMinutes(req.body.time_from[index]), 
@@ -75,7 +75,7 @@ async function saveClasses(req, res){
 
     try {
         const db = await Database
-        await createProffy(db, { proffyValue, classValues,classScheduleValues })
+        await createProffy(db, { proffyValue, classValue,classScheduleValues })
 
         let queryString = "?subject=" + req.body.subject
         queryString += "&weekday=" + req.body.weekday[0]
