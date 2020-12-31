@@ -7,6 +7,8 @@
 <div align="center" >
   <h2 align="center">Página web responsiva</h2>
   <img src="./github/Web-resp.png" alt="web" height="290">
+  <br>
+
 
   <h2 align="center">Estudar</h2>
   <img src="./github/Study.gif" alt="demo-study" height="425">
@@ -14,6 +16,8 @@
 
   <h2 align="center">Dar Aulas</h2>
   <img src="./github/Give-classes.gif" alt="demo-give-classes" height="425">
+  <br>
+
 </div>
 
 ## 🛠 Tecnologias
@@ -24,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - Javascript
 
-<p align="center">
+<p align="left">
   <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/>
