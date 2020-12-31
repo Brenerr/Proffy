@@ -1,6 +1,6 @@
-
-<img align="center" src="./github/Proffy.png" alt="web" height="100">
-
+<div align="center" >
+  <img align="center" src="./github/Proffy.png" alt="web" height="100">
+</div>
 <br>
 
 ## 💻 Demo
@@ -20,16 +20,15 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<div align="center">
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/> <h4> HTML</h4>
-</div>
+- HTML
+- CSS
+- Javascript
 
-
-<div></div>
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/> CSS
-
-<div></div>
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/> Javascript
+<p align="center">
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/>
+</p>
 
 ## 📜 Projeto
 
