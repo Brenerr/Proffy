@@ -1,12 +1,12 @@
 
-<img src="./github/Logo.png" alt="web" height="200">
+<img align="center" src="./github/Proffy.png" alt="web" height="100">
 
 <br>
 
 ## 💻 Demo
 <div align="center" >
   <h2 align="center">Página web responsiva</h2>
-  <img src="./github/Web-resp.png" alt="web" height="425">
+  <img src="./github/Web-resp.png" alt="web" height="290">
 
   <h2 align="center">Estudar</h2>
   <img src="./github/Study.gif" alt="demo-study" height="425">
@@ -20,11 +20,16 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/>HTML
-  
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/>CSS
+<div align="center">
+- <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/> <h4> HTML</h4>
+</div>
 
-- <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/>Javascript
+
+<div></div>
+- <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/> CSS
+
+<div></div>
+- <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/> Javascript
 
 ## 📜 Projeto
 
