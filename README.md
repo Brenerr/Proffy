@@ -23,16 +23,15 @@
 ## 🛠 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML
-- CSS
-- Javascript
-
 <p align="left">
   <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg" alt="react" width="20" height="20"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg" alt="react" width="20" height="20"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="react" width="20" height="20"/>
 </p>
+
+- HTML
+- CSS
+- Javascript
 
 ## 📜 Projeto
 
